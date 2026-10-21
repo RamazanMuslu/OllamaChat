@@ -3,7 +3,7 @@
   "displayName": "Local Ollama Chat Agent",
   "publisher": "ramazanmuslu",
   "description": "A chat panel for local LLM support with ollama",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "media/marketplace-icon.png",
   "engines": {
     "vscode": "^1.140.0"
