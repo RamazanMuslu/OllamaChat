@@ -1,5 +1,9 @@
-package.json.comment
-.vscode
+node_modules/
+dist/
+*.vsix
+*.log
+.DS_Store
+Thumbs.db
+.vscode-test
+project.md
 vsc-extension-quickstart.md
-CHANGELOG.md
-.vscode-test.mjs

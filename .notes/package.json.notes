@@ -1,0 +1,15 @@
+"menus": {
+      "view/title": [
+        {
+          "command": "ollamachat.newChat",
+          "when": "view == ollamachat.chatView",
+          "group": "navigation"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "ollamachat.newChat",
+        "title": ""
+      }
+    ]
