@@ -1,8 +1,10 @@
 {
   "name": "ramazanmuslu-ollamachat",
-  "displayName": "ollamachat",
+  "displayName": "Local Ollama Chat Agent",
+  "publisher": "ramazanmuslu",
   "description": "A chat panel for local LLM support with ollama",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "icon": "media/marketplace-icon.png",
   "engines": {
     "vscode": "^1.140.0"
   },
