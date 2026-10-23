@@ -1,4 +1,11 @@
-# OllamaChat 🦙💻
+
+<p align="center">
+  <a style="text-decoration: none; color: #000000; font-size: 40px; font-style: bold;" href="https://marketplace.visualstudio.com/items?itemName=ramazanmuslu.ramazanmuslu-ollamachat">
+    <img src="media/marketplace-icon.png" alt="ollamachat" width="150"/>
+    <br>
+    Ollama Chat
+  </a>
+</p>
 
 [![Visual Studio Marketplace](https://img.shields.io/badge/VS%20Code%20Marketplace-OllamaChat-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/)
 [![Ollama](https://img.shields.io/badge/Powered%20By-Ollama-black?logo=ollama)](https://ollama.com/)
@@ -7,10 +14,9 @@
 
 > **OllamaChat**, is a fully native, private, and unlimited AI coding and autonomous software engineering assistant within Visual Studio Code. Your code never leaves your computer, and it requires no API key or subscription.
 
-<a name="english"></a>
-## 🌐 English
-
 **OllamaChat** turns local open-source LLMs (such as DeepSeek-Coder, Qwen2.5-Coder, Llama 3, CodeLlama, Mistral, Phind, etc.) into an integrated pair programmer and autonomous software engineer directly inside your VS Code sidebar.
+
+> Download from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ramazanmuslu.ramazanmuslu-ollamachat)
 
 ### ✨ Key Features
 
@@ -44,7 +50,7 @@ In Agent Mode, models can execute structured workspace operations:
   - **Keep (Kalıcı Yap)**: Permanently accepts the changes.
   - **View Diff (Farkı Gör)**: Opens VS Code's side-by-side diff editor.
 
-#### 5. Security Prosecutor (Savcı Modeli)
+#### 5. Security Prosecutor
 - Employs a dedicated, ultra-fast lightweight model (e.g., `1.5B` or user-defined) to audit every command and file operation in real-time.
 - Automatically flags or blocks destructive instructions (such as `rm -rf`, system-level wipes, unauthorized file overrides).
 - Includes an interactive Security Badge & Hover Popover explaining the audit reasoning.
@@ -53,7 +59,7 @@ In Agent Mode, models can execute structured workspace operations:
 - Reference workspace files using `@filename` or `#filename` autocomplete.
 - Drag and drop files directly from the VS Code Explorer into the chat input to inject them into the context window.
 
-#### 7. Black Box (Kara Kutu) Diagnostic Export
+#### 7. Black Box Diagnostic Export
 - Click the **Black Box** button beside any assistant message to instantly generate a comprehensive technical Markdown report:
   - Token metrics: Prompt eval speed, generation speed (`tokens/s`), duration, and load times.
   - Executed tools, statuses, Prosecutor audit decisions, and output payloads.
