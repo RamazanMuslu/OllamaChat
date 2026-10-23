@@ -46,9 +46,9 @@ In Agent Mode, models can execute structured workspace operations:
 #### 4. Auto-Apply with Revert & Keep
 - File edits are applied immediately for maximum developer velocity.
 - Every action card includes:
-  - **Revert (Geri Al)**: Undoes file changes back to their original state or removes created files.
-  - **Keep (Kalıcı Yap)**: Permanently accepts the changes.
-  - **View Diff (Farkı Gör)**: Opens VS Code's side-by-side diff editor.
+  - **Revert**: Undoes file changes back to their original state or removes created files.
+  - **Keep**: Permanently accepts the changes.
+  - **View Diff**: Opens VS Code's side-by-side diff editor.
 
 #### 5. Security Prosecutor
 - Employs a dedicated, ultra-fast lightweight model (e.g., `1.5B` or user-defined) to audit every command and file operation in real-time.
